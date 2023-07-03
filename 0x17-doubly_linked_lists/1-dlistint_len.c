@@ -1,6 +1,6 @@
 /*
  * File: 1-dlistint_len.c
- * Auth: Brennan D Baraban
+ * Auth: Paul S w
  */
 
 #include "lists.h"
@@ -21,5 +21,5 @@ size_t dlistint_len(const dlistint_t *h)
 		h = h->next;
 	}
 
-	return (nodes);
+	return (nodes)
 }
